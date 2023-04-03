@@ -1,0 +1,139 @@
+
+/* input[type="submit"]{
+
+    /* background-color: rgb(58, 86, 58); */
+    /* color: #fff;
+    padding: 50px; */
+/* } */ 
+
+.profile img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #7b3826;
+    outline: none;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color:#fff;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin: 10px;
+    color:#7b3826;
+}
+/* strat slider  */
+.slider{
+    height: 500px !important;
+    overflow: hidden;
+}
+.slider img{
+    height: 100%;
+}
+.slider .item{
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color:#fff;
+}
+.slider .item h1{
+    font-size: 80px;
+    color:#fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.slider .item button {
+    background-color: #c09457;
+    border-color:#c09457;
+    outline: none;
+    padding: 10px;
+    transition: 0.5s;
+}
+.slider .item button:hover{
+    background-color: #fff;
+    color: #c09457;
+}
+.slider .item1{
+background-image: url("../images/slider1.jpg");
+
+}
+.slider .item2{
+    background-image: url("../images/slider2.jpg");
+ 
+    }
+ .slider .item3{
+        background-image: url("../images/slider3.jpg");
+
+  }
+
+
+  /* strat menu section  */
+.ourMenu{
+    padding-top: 30px;
+    background-color: #fff;
+    color:#333;
+    padding-bottom: 40px;
+}
+.ourMenu h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.ourMenu .card{
+    margin-top: 20px;
+    border:none;
+    text-align: center;
+}
+.card{
+    transition: 1s;
+
+}
+.card .card-title {
+    font-size: 25px;
+    font-weight: bold;
+}
+.card:hover{
+    background-color: #fff;
+    box-shadow: 1px 6px 11px rgb(0 0 0 / 40%);}
+.card .price{
+    color:#c09457;
+    font-size: 20px;
+    
+}
+.card .card-img, .card-img-top {
+    width: 80%
+}
+.about{
+    background-color: #f4f4f4;
+   
+}
+.about .container .box{
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+.about .container .box h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.our_team h1{
+    margin-bottom: 40px;
+}
+.our_team .card .card-text {
+    color:#7b3826;
+}
